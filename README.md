@@ -1,0 +1,128 @@
+<table>
+<tr>
+<td valign="top">
+
+<pre>
+                            %%%%%
+                     ##%% % %  % %%
+               %% #####%%@%%%%%%%%%%%%#
+                %%#%%%@%@@@@%@@@%%#%@@@%*
+             %%####%@@@%@@@@@@@@@%%@@@@@#%%
+            %%#%%%@@@@@@%%@@@@@@@@%%@@@@%%%@
+            #%%@%@@@@@@@%#%%%%%%%%%#@@@@@%%%% %
+           %%@@@@@%%%%##**#%*+++==+%%%@%%@%%%#
+           %%@@@@%##****++++====+**%*#@@@@%%%#
+          #%%%@@%##**++++=======----==+*#%%%%%
+          #%@@@@%***+++++======----------=##%%
+          %%%@@%@***++++=======----------=#%%%
+          %%%@@****++++++=====----===++===*%%%
+           %%%@##%##%%##*++=++++***+++++*==@%%
+            %%@*****+#####+=:-=*##@@@*++===%@%
+             #%***#*@%+###*=--==+**++=----=#%#
+              *********#**+=-----+==------=*+
+              #***+++******+==--:-------===+
+              *****+++****+=--==--------==+=
+               *********##++=*=---------===
+                ************=-----------==
+                *********+==+-----------=
+                 ****+#%%%#****#**=---===
+                  *********++++====-==+=
+                  ####**++++=========+==
+                  *####***++==--===+==-=
+                 #########**+++====--===+%%
+               @@###****##**+====------==%@@@@@@@@@%
+          %@@@@@@###**++**++===--------==@@@@@@@@@@@@@@@@@=
+       @@@@@@@@@@###**++++++===--=-----=*@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@####**+===========----=@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@%##***+==--=-====-----#@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@#****++=---=====---=#@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@%#+++*+=---=====-=+#@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@#+++++---=+++=+*@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@+++==-==+**#@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+</pre>
+
+</td>
+<td valign="top">
+
+<h1>hans stuffer</h1>
+
+<p>physics at imperial. building in london.</p>
+
+<p>mostly I work on systems that have to be right at a
+scale where nobody can check them by hand, which is a
+different problem from systems that merely look right.</p>
+
+<p>
+<a href="https://www.linkedin.com/in/hans-stuffer/">linkedin</a> ·
+<a href="https://github.com/Hans-Stuffer">github</a><br>
+london, uk
+</p>
+
+</td>
+</tr>
+</table>
+
+### what i'm building
+
+**[touchstone](https://github.com/Hans-Stuffer/touchstone)** · a theorem prover, symbolic math, a
+constraint solver and symbolic execution, wired into claude code so the agent proves the code instead
+of guessing at it. built it because I got tired of being told something was correct by a thing that
+cannot be sure of anything.
+
+**plexus** · a neurobiological computer in rust. spiking neurons instead of logic gates, plasticity
+finds the circuit. the rule is that the behaviour has to emerge because the environment demands it.
+not hard coded, not bootstrapped.
+
+### what i've built
+
+**chooseout** · the cross-platform merge behind one search across deliveroo, uber eats and just eat.
+the search was never the hard part. the hard part is a million menu items across three platforms that
+all name the same thing differently, and deciding that "mayo" and "mayonnaise" are the same option
+while "hot" and "extra hot" are not. raised a six-figure pre-seed. transitioned out of active
+contribution in late july 2026.
+
+**[cloud-chamber-ml](https://github.com/Hans-Stuffer/cloud-chamber-ml)** · measured the cosmic-ray
+muon zenith distribution with a desktop cloud chamber, two phones and an ML trigger. 69 stereo
+triangulated muons, isotropy rejected at p < 10⁻³. acceptance-systematic limited, not count limited,
+and the writeup says exactly why instead of hiding it. 
+
+### how i work
+
+**data driven, not list driven.** a hard-coded vocab list never fixes the bug. it makes it break on
+fewer edge cases and it still breaks. structurally resolved, or not fixed.
+
+**there is no such thing as being unlucky in development.** if I hit the same broken case twice by
+accident, that is not bad luck. it is widespread and I just found the edge of it.
+
+**1% is not a rounding error.** at a million items, 99% correct means ten thousand people get
+something wrong. and they are not slightly wrong: a burger whose required modifiers merged badly is
+not a small bug, it is an impossible checkout. that costs more than a bad search or a bad ui ever
+will, because it is the thing that spends the user's trust.
+
+**prove it, don't handwave it.** if a thing carries a real invariant, the invariant gets proved on
+the design before the code exists. catching it in a test run is the most expensive catch there is.
+
+**check, don't guess.** prod is right there. so is the log.
+
+### since february
+
+```
+    f   m   a   m    j   j
+    ···▒·▒▓░░▓░░·▒███░░█▓·▓░
+mon ···░▒░░░▒▓·░·█▓██▓░█▒░█·
+    ···▓▒·▓░░·░░·█▓███▒░█▓█·
+wed ···░█··▒··░░·█████▓░█░▓▒
+    ··░▒▓▒··░▒···▒▒░█░█▒█▒░·
+fri ··░·░▒··░·░··██▒▒█▓▒·▓·░
+    ··░░▒░··░░▓··▒██▒░▒█░▓░
+
+    900 commits · 116 active days of 166
+```
+
+commit dates only, generated by [tools/heatmap.py](tools/heatmap.py). my github graph shows a
+fraction of this. most of it was authored from a box whose git email cannot be verified, and
+unverified emails link commits inside a repo but never reach the contribution graph. 
+
+### reach
+
+[linkedin](https://www.linkedin.com/in/hans-stuffer/) · [github](https://github.com/Hans-Stuffer) · london, uk
